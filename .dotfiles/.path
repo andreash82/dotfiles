@@ -1,0 +1,5 @@
+
+[[ -r .path_gsb ]] && source .path_gsb
+[[ -r .path_legacy ]] && source .path_legacy
+## [[ -r .path_java ]] && source .path_java
+[[ -r .path_user ]] && source .path_user

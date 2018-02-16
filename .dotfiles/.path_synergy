@@ -1,0 +1,3 @@
+## Synergy
+export CCM_HOME=/opt/ccm_721
+export PATH=$CCM_HOME/bin:$PATH
