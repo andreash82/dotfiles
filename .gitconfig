@@ -1,0 +1,9 @@
+[diff]
+        external = git-meld
+[core]
+	editor = vim
+[merge "ours"]
+	driver = true
+[alias]
+        apply-gitignore = !git ls-files -ci --exclude-standard -z | xargs -0 git rm --cached
+        ls-ignored = !git ls-files -ci --exclude-standard -z
