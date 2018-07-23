@@ -1,7 +1,7 @@
 ## GSB
-export BOL_DEV_HOME=/home/ahohendo/gsb/active/basis
-export GSB_ADMIN_HOME=/home/ahohendo/admin
-export GSB_CUSTOMERS_DIR=/home/ahohendo/gsb/customers
+export BOL_DEV_HOME=$HOME/gsb/active/basis
+export GSB_ADMIN_HOME=$HOME/admin
+export GSB_CUSTOMERS_DIR=$HOME/gsb/customers
 export PATH=$BOL_DEV_HOME/bin:$PATH
 
 
