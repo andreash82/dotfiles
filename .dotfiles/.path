@@ -3,3 +3,9 @@
 [[ -r .path_legacy ]] && source .path_legacy
 ## [[ -r .path_java ]] && source .path_java
 [[ -r .path_user ]] && source .path_user
+
+#which yarn &>/dev/null
+#if [ ! $? -eq 0 ]
+#then
+#  export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+#fi
