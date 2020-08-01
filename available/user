@@ -1,0 +1,2 @@
+### some user local binaries
+export PATH="$HOME/bin":$PATH

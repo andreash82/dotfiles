@@ -1,0 +1,15 @@
+PROXY_HOST=`cat .proxyHost`
+nslookup -timeout=1 $PROXY_HOST &>/dev/null
+LOOKUP_SUCCESS=$?
+
+if [ $LOOKUP_SUCCESS -eq 0 ] && [ -f "$HOME/.proxy" ]
+then
+  source "$HOME/.proxy"
+else
+  # just unset them
+  export http_proxy=
+  export https_proxy=
+  export ftp_proxy=
+  export rsync_proxy=
+  export no_proxy=
+fi

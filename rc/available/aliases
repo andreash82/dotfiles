@@ -1,0 +1,4 @@
+if [ -t 0 ]; then
+  alias ls='ls --color=auto -lah'
+  alias vi='vim'
+fi

@@ -1,3 +1,3 @@
-.cvs_m
-.proxy
+enabled/*
+!enabled/.gitkeep
 
