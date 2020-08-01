@@ -1,4 +1,7 @@
-echo "bash_profile"
+#
+# ~/.bash_profile
+#
 
-export MY_BASH_PROFILE=true
-[[ -z "$_MY_PROFILE_LOADED_" ]] && source ~/.profile
+[[ -r "$HOME/.profile" ]] && source "$HOME/.profile"
+[[ -r "$HOME/.bashrc" ]] && source "$HOME/.bashrc"
+
