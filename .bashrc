@@ -7,8 +7,8 @@
 
 if [ -d "$HOME/.dots/rc/enabled" ]
 then
-  for file in "$HOME/.dots/rc/enabled/*"; do
-    [ -r "$file" ] && [ -f "$file" ] && source "$file";
+  for file in "$HOME/.dots/rc/enabled"/*; do
+    [ -r "$file" ] && source "$file";
   done
 fi
 
